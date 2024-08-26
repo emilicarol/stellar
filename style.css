@@ -265,3 +265,78 @@ hr {
 
 }
 
+.lista-rodape{
+ display: none;
+}
+
+@media screen and (min-width:1024px) {
+  .rodape {
+  display: flex;
+   justify-content: space-around;
+  }
+  
+}
+.lista-rodape {
+ display: block;
+
+}
+.lista-rodape_item{
+ display: flex;
+ align-items: center;
+ margin: 0.6em 0;
+
+}
+
+.lista-rodape_link{
+ color: var(--cinza);
+ text-decoration: none;
+ margin-left: 0.6em;
+
+
+}
+.lista-rodape_titulo {
+font-size: 14px;
+color: var(--cinza-claro);
+
+
+}
+.rodape_titulo {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1728px) {
+  .lista-rodape {
+  border-left: 1px solid var(--cinza-claro);
+ padding-left: 1em;
+  }
+  
+}
+.rodape {
+  padding: 3em 0;
+}
+
+.topicos {
+ background: var(--azul-degrade);
+ text-align: center;
+ padding: 1em 0;
+
+
+}
+
+.topicos_titulo {
+color: var(--branco);
+font-weight: 300;
+margin-bottom: 1em;
+}
+ .topicos_lista {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+
+
+ }
+
+ .topicos_lista {
+ margin:  2em 0.5em;
+
+ }
