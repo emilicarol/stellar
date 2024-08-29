@@ -20,9 +20,10 @@ font-weight:400;
 width: 24px;
 height: 24px;
 display: inline-block;
-background-image: url("../img/herdeiros.jpg"); 
+background-image: url("barra-de-menu.png"); 
 background-repeat: no-repeat;
 background-position: center;
+display: inline-block;
 }
 
 .cabecalho {
@@ -40,6 +41,7 @@ background-position: center;
 
 .container_imagem {
  padding: 1em;
+ width: 25%;
 }
 
 .lista-menu{
@@ -57,6 +59,7 @@ background-position: center;
 .lista-menu_item {
  padding: 1em;
  background-color: var(--branco);
+ list-style-type: none;
 
 }
 
@@ -111,8 +114,9 @@ margin: 1em 0;
  font-weight: 400;
  text-align: center;
  color: var(--branco);
- background: url("../img/lupa.png"); 
+ background: url("lupa.png"); 
  background-position: 1em;
+ 
 
 }
 
@@ -250,7 +254,7 @@ margin: 2em 0.5em;
 .contato_email::placeholder{
  font-family: var(--fonte-principal);
  color: var(--azul);
- background: url("e-mail.png") no-repeat 5%;
+ background: url("envelope.png") no-repeat 5%;
   padding-left: 2em;
 }
 
